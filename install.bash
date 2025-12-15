@@ -15,6 +15,7 @@ cd ever/build
 # CXX=$CXX CC=$CC cmake -DOptiX_INSTALL_DIR=$OptiX_INSTALL_DIR ..
 CXX=$CXX CC=$CC cmake -DOptiX_INSTALL_DIR=$OptiX_INSTALL_DIR -DCMAKE_CUDA_ARCHITECTURES="50;60;61;70;75;80;86" ..
 make -j8
-cd ../..
 
-pip install -e submodules/simple-knn
+cd ./submodules/simple-knn
+
+pip install -e .
