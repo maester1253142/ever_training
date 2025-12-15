@@ -35,7 +35,7 @@ from utils.system_utils import searchForMaxIteration
 import time
 from gaussian_renderer.fast_renderer import FastRenderer
 
-renderFunc = splinerender
+# renderFunc = splinerender
 # renderFunc = render
 from scene.dataset_readers import ProjectionType
 
