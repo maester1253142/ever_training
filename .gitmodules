@@ -4,3 +4,6 @@
 [submodule "SIBR_viewers"]
 	path = SIBR_viewers
 	url = https://gitlab.inria.fr/sibr/sibr_core.git
+[submodule "ever"]
+	path = ever
+	url = git@github.com:maester1253142/ever
