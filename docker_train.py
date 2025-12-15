@@ -39,6 +39,7 @@ def main():
     # Now build the docker command:
     docker_cmd = [
         "docker", "run", "--rm", "--gpus", "all",
+        "--runtime=nvidia",
         "-v", "/tmp/NVIDIA:/tmp/NVIDIA",
         # "--user", "$(id -u):$(id -g)",
         "-e", "NVIDIA_DRIVER_CAPABILITIES=graphics,compute,utility",
