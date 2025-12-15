@@ -18,9 +18,3 @@ make -j8
 cd ../..
 
 pip install -e submodules/simple-knn
-
-# SIBR Viewer
-cd SIBR_viewers
-cmake -Bbuild . -DCMAKE_BUILD_TYPE=Release
-cmake --build build -j24 --target install
-cd ../..
